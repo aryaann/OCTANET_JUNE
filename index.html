@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1 class="herotext">Hello, <span>I am Aryan </span</h1>
+        <p>Web Developer & Designer</p>
+    </section>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul class="text">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <h2>My Projects</h2>
+        <div class="project">
+            
+            <h3>Dreamscape</h3>
+            <img src="dreamscape.png" class="projectimg" alt="Project 1">
+            <p class="port">Dreamscape is an intricately designed social platform, utilizing the robust MERN stack. It offers a dedicated space for users to share and analyze their nightly dreams. With a focus solely on dream discussions, members engage in thought-provoking conversations and forge connections based on shared experiences. Dreamscape isn't just a platform—it's a doorway to unraveling the mysteries of the subconscious mind, fostering a vibrant community united by a shared fascination with dreams.</p>
+        </div>
+        
+        <div class="HomerHub">
+            
+            <h3>HomerHub</h3>
+            <img src="homerhub.png" class="home" alt="Project 2">
+            <p class="hub">This project is an online platform for buying and selling properties in your local area, developed as my first college project. While not fully complete, it features user registration and login, property listings with images and details, and a search function for easy navigation. I used PHP for server-side scripting, HTML for page structure, CSS for styling, and JavaScript for interactivity. This project provided a foundational understanding of web development and hands-on experience with these technologies.</p>
+        </div>
+        
+    </section>
+
+   
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p><span class="footerspan"> Aryan </span>- All rights reserved.</p>
+        <div class="social">
+            <a href="https://github.com/aryaann" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/aryan-shrivastava-a8403328a/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
